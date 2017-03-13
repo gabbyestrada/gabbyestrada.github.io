@@ -12,7 +12,7 @@ h4, h3, h2, h1{
 
 .site-logo {
   line-height:100%;
-  text-align: center;
+  text-align:center;
   margin: 0;
   width:100%;
   font-family: 'Sacramento', cursive;
@@ -20,8 +20,9 @@ h4, h3, h2, h1{
 .top-bar, .top-bar ul{
   padding: 0px;
   position: relative;
-  display: inline;
-  text-align: center;
+  display: inline-block;
+  text-align: -webkit-center;
+  width: 100%;
   font-family: 'Josefin Slab', serif;
 }
 
@@ -93,19 +94,24 @@ footer a:hover {
 
 /* ================= MEDIA QUERY  ============= */
 @media (max-width: 639px) {
-  .nav-desktop{
+  .menu-center{
     display: none;
   }
   .hero{
     padding:80px 0px;
   }
+  /*.menu{
+    max-width:100%
+  } */
+  .site-logo{
+    display:none;
+  }
 }
 
-@media (max-width: 911px){
+/*@media (max-width: 911px){
 
-  .hero h2,
-  .hero p{
+  .menu-center{
     width: 100%;
    }
 
- }
+ } */
