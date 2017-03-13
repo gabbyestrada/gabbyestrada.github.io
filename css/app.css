@@ -19,7 +19,9 @@ h4, h3, h2, h1{
 }
 .top-bar, .top-bar ul{
   padding: 0px;
-  text-align: -webkit-center;
+  position: relative;
+  display: inline;
+  text-align: center;
   font-family: 'Josefin Slab', serif;
 }
 
